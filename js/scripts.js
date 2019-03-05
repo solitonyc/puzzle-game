@@ -11,3 +11,4 @@ function drop(ev) {
     let data = ev.dataTransfer.getData("drop");
     ev.target.appendChild(document.getElementById(data));
 }
+

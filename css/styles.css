@@ -47,53 +47,57 @@ body {
   }
   
   /* ROUND ONE */ 
-  #drag01,
-  #drag02,
-  #drag03,
-  #drag04,
-  #drag05,
-  #drag06,
-  #drag07,
-  #drag08,
-  #drag09 {
+  #drag1,
+  #drag2,
+  #drag3,
+  #drag4,
+  #drag5,
+  #drag6,
+  #drag7,
+  #drag8,
+  #drag9 {
     height: 200px;
     width: 200px;
     
     display: inline-block;
   }
   
-  #drag01 {
+  #drag1 {
     background: red;
   }
   
-  #drag02 {
+  #drag2 {
     background: brown;
   }
   
-  #drag03 {
+  #drag3 {
     background: blue;
   }
   
-  #drag04 {
+  #drag4 {
     background: green;
   }
   
-  #drag05 {
+  #drag5 {
     background: goldenrod;
   }
   
-  #drag06 {
+  #drag6 {
     background: purple;
   }
   
-  #drag07 {
+  #drag7 {
     background: maroon;
   }
   
-  #drag08 {
+  #drag8 {
     background: mediumvioletred;
   }
   
-  #drag09 {
+  #drag9 {
     background: navy;
+  }
+  
+  .info {
+      text-align: center;
   }
