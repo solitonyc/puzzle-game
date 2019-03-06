@@ -63,39 +63,39 @@ body {
   }
   
   #drag1 {
-    background: red;
+    background-image: url(../images/puzzle1_01.jpg)
   }
   
   #drag2 {
-    background: brown;
+    background-image: url(../images/puzzle1_02.jpg)
   }
   
   #drag3 {
-    background: blue;
+    background-image: url(../images/puzzle1_03.jpg)
   }
   
   #drag4 {
-    background: green;
+    background-image: url(../images/puzzle1_04.jpg)
   }
   
   #drag5 {
-    background: goldenrod;
+    background-image: url(../images/puzzle1_05.jpg)
   }
   
   #drag6 {
-    background: purple;
+    background-image: url(../images/puzzle1_06.jpg)
   }
   
   #drag7 {
-    background: maroon;
+    background-image: url(../images/puzzle1_07.jpg)
   }
   
   #drag8 {
-    background: mediumvioletred;
+    background-image: url(../images/puzzle1_08.jpg)
   }
   
   #drag9 {
-    background: navy;
+    background-image: url(../images/puzzle1_09.jpg)
   }
   
   .info {
