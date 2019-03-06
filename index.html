@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Welcome</title>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <h1>Hello</h1>
+    <div class="welcome-info">
+        <div id="title">Puzzle Game</div>
+        <div id="instructios">Drag and drop a piece onto the grid to complete the picture.</div>
+    </div>
+      
+        <div id="pieces">
+            <div id="drag1" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag2" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag3" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag4" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag5" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag6" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag7" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag8" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+            <div id="drag9" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+        </div>
+        
+        <div id="drop">
+            <div id="div1" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div3" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div2" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div4" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div5" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div6" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div7" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div8" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div id="div9" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    
+      <div class="info"><p>Congratulations if you finished!<p></div>
+</body>
+
+</html>

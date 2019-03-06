@@ -1,0 +1,103 @@
+body {
+    background:#6b6b69;
+    color:white;
+  }
+  
+  .welcome-info {
+    position:relative;
+    font-family:Arial;
+    margin:10px;
+    text-align:center;
+    border-radius:5px;
+    font-size:15px;
+  }
+  
+  #title {
+    font-size:20px;
+  }
+  
+  #rest2 {
+    font-size:13px;
+  }
+
+  #drop div {
+    position:relative;
+    height: 200px;
+    width: 200px;
+    border: 1px dashed gray;
+    display: inline-block;
+    margin: 0;
+  }
+  
+  #drop {
+    width:614px;
+    height:614px;
+    background:black;
+    border:5px solid black;
+    margin:auto;
+  }
+  
+  #pieces {
+    width: 100%
+  }
+  
+  img {
+    height: 200px;
+    width: 200px;
+  }
+  
+  /* ROUND ONE */ 
+  #drag1,
+  #drag2,
+  #drag3,
+  #drag4,
+  #drag5,
+  #drag6,
+  #drag7,
+  #drag8,
+  #drag9 {
+    height: 200px;
+    width: 200px;
+    
+    display: inline-block;
+  }
+  
+  #drag1 {
+    background-image: url(../images/puzzle1_01.jpg)
+  }
+  
+  #drag2 {
+    background-image: url(../images/puzzle1_02.jpg)
+  }
+  
+  #drag3 {
+    background-image: url(../images/puzzle1_03.jpg)
+  }
+  
+  #drag4 {
+    background-image: url(../images/puzzle1_04.jpg)
+  }
+  
+  #drag5 {
+    background-image: url(../images/puzzle1_05.jpg)
+  }
+  
+  #drag6 {
+    background-image: url(../images/puzzle1_06.jpg)
+  }
+  
+  #drag7 {
+    background-image: url(../images/puzzle1_07.jpg)
+  }
+  
+  #drag8 {
+    background-image: url(../images/puzzle1_08.jpg)
+  }
+  
+  #drag9 {
+    background-image: url(../images/puzzle1_09.jpg)
+  }
+  
+  .info {
+      text-align: center;
+  }
