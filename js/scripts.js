@@ -14,7 +14,7 @@ function drop(ev) {
     ev.preventDefault();
     let data = ev.dataTransfer.getData("id");
     ev.target.appendChild(document.getElementById(data));
-    if (ev.dataTransfer.getData('id') === 'pieces') {
+    if (ev.dataTransfer.getData('id') === '.gamePieces') {
         alert('Correct')
     } else {alert('Wrong')}
 }
