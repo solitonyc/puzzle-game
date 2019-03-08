@@ -43,7 +43,7 @@ An image puzzle with 25 pieces awaits your keen attention to visual detail, clue
 * There is a strange bug, where if I continue to zoom out to about 25%, eventually the drop zone breaks. It's a behavior I don't think many users ever do with their browser. 
 
 ## Image Copyright
-All photography used in this game are original works of art produced by Solito Reyes II. The images and sliced image pieces are the property and copyright of Solito Reyes II, 2019. Do not use without written permission. Check out [Solito's Flickr Account:](https://www.flickr.com/people/solitoreyes/)
+All photography used in this game are original works of art produced by Solito Reyes II. The images and sliced image pieces are the property and copyright of Solito Reyes II, 2019. Do not use without written permission. Check out [Solito's Flickr Account](https://www.flickr.com/people/solitoreyes/)
 
 ## Credits:
 #### W3 Schools
