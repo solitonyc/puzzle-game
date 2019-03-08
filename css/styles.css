@@ -59,6 +59,10 @@ body {
   text-decoration: none;
 }
 
+.logo {
+  height: 46px;
+  width: 46px
+}
 
 #rest2 {
   font-size:13px;
