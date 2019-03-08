@@ -1,28 +1,29 @@
 # Life's a Drag
 ## My First Game
-Welcome to the first software game I ever developed. I wrote this in HTML, CSS Flex and Javascript. I hope you enjoy it. This project was assigned to me as a student learning web development.
+Welcome to the first software game I ever developed. I wrote this in HTML, CSS Flex and Javascript. I hope you enjoy it. 
 
 ## Description
-This is a simple image puzzle game. The objective is to reposition the image tiles in order to complete the original image. On one side, you will see a collection of shuffled image tiles; move the image tiles one-at-a-time to a correct box in the drop zone grid. The completed image will emerge with each correctly placed piece.
+This is a simple image puzzle game. The objective is to complete the original image by repositioning image tiles. On one side, you will see a collection of shuffled image tiles. Select and move image tiles, one-at-a-time to a correct box in the drop zone grid. The completed image will emerge once all the pieces are correctly in place.
 
 ## How to Play
 1. Refresh your screen to reshuffle the pieces. 
-2. Move an image tile by using a drag-and-drop method.
-  * Select an image piece by clicking on it and holding the click down. 
-  * Move the piece by holding down the click, while simultaneously moving your mouse to a proper position in the drop-zone. 
-  * Release the click button to drop the piece into position. 
+2. Move an image tile by using a drag-and-drop method: 
+    * Select an image piece by clicking on it and holding the click button down. 
+    * Move a piece by holding down the click down, while simultaneously moving your mouse.
+    * Your mouse movement drags the image piece. 
+    * Release the click button to drop the piece into position. 
 3. An alert will display informing you if the piece is in the correct grid box or not. 
 4. Refresh your screen at any time during the game to restart and reshuffle.
 
 ## Levels of Play:
 #### Round One
-An image puzzle with 9 evenly sized tiles awaits your keen attention to visual detail. Complete this round by placing all image pieces unto the correct grid box in the drop zone.
+You're presented an image puzzle with 9 evenly sized tiles awaiting your keen attention to visual detail. Complete this round by placing all image pieces unto the correct grid box.
 
 #### Round Two
-An image puzzle with 16 pieces awaits your keen attention to visual detail and clues. Complete this round by placing all image pieces unto the correct grid box in the drop zone.
+You're presented an image puzzle with 16 pieces awaiting your keen attention to visual detail and clues. Complete this round by placing all image pieces unto the correct grid box.
 
 #### Round Three
-An image puzzle with 25 pieces awaits your keen attention to visual detail, clues and patience. Complete this round by placing all image pieces unto the correct grid box.
+You're presented an image puzzle with 25 pieces awaiting your keen attention to visual detail,clues and patience. Complete this round by placing all image pieces unto the correct grid box.
 
 # Screenshots:
 ## Level One
@@ -42,7 +43,7 @@ An image puzzle with 25 pieces awaits your keen attention to visual detail, clue
 * I hope to return to this project in the future to add more features. 
 * There is a strange bug, where if I continue to zoom out to about 25%, eventually the drop zone breaks. It's a behavior I don't think many users ever do with their browser. 
 
-## Image Copyright
+### Image Copyright
 All photography used in this game are original works of art produced by Solito Reyes II. The images and sliced image pieces are the property and copyright of Solito Reyes II, 2019. Do not use without written permission. Check out [Solito's Flickr Account](https://www.flickr.com/people/solitoreyes/)
 
 ## Credits:
