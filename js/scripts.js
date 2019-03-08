@@ -63,7 +63,8 @@ const gamePieceImages = [
     src: "images/rd1/puzzle1_09.jpg",
     draggable: "true",
     ondragstart: "drag(event)"
-  }
+  },
+
 ]
 //shuffles images in the array above
 function shuffledImages(array) {
@@ -89,17 +90,6 @@ const gamePiecesDiv = document.getElementById('pieces');
 
 //this dynamically creates the pieces array on left side of page from objects up top
 
-// for (let i=0; i<newArray.length; i+=1) {
-
-//   const imgEl = document.createElement('img');
-//   imgEl.id = `${newArray[i].id}`;
-//   imgEl.setAttribute('data-div', `div${i+1}`)
-//   imgEl.src = `${newArray[i].src}`;
-//   imgEl.draggable = `${newArray[i].draggable}`;
-//   imgEl.setAttribute('ondragstart', 'drag(event)')
-//   gamePiecesDiv.appendChild(imgEl);
-// }
-
 newArray.forEach( (img, i) => {
   if (img.id === img.dataDiv) {
   let imgEl = document.createElement('img')
@@ -117,13 +107,7 @@ newArray.forEach( (img, i) => {
 console.log(gamePiecesDiv)
 
 
-  
-
-
-
 const gamePieces = document.querySelectorAll(".gamePieces");
-
-
 
 //enables drag and drop
 function allowDrop(ev) {
@@ -133,7 +117,6 @@ function allowDrop(ev) {
 //Drag portion that reads div ID
 function drag(ev) {
     ev.dataTransfer.setData("content", ev.target.id);
-    
 }
 
 //Drop event & checks <img id> w 'data-div'

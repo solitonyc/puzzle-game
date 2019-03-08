@@ -32,16 +32,6 @@ body {
   grid-column: span 2;
   }
 
-/* @media screen and (max-width: 575px) {
-    .grid {
-      display: inline;
-      }
-    .box {
-      margin: 4px;
-    }
-  } */
-
-
 /* ------ CSS Flexbox Ends Here ------ */
 
 .welcome-info {
@@ -60,6 +50,13 @@ body {
 .instructions {
   font-size: 18px;
   padding: 8px;
+}
+
+.nav-bottom {
+  font-size: 24px;
+  font-weight: 600px;
+  text-align: center;
+  text-decoration: none;
 }
 
 #rest2 {
