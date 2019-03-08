@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <title>Welcome</title>
-    <script src="js/scripts.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <title>Solito's Puzzel: Round One</title>
+    </head>
 <body>
-    <h1>Hello</h1>
-    <div class="welcome-info">
-        <div id="title">Puzzle Game</div>
-        <div id="instructios">Drag and drop a piece onto the grid to complete the picture.</div>
-    </div>
-      
-        <div id="pieces">
-            <div id="drag1" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag2" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag3" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag4" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag5" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag6" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag7" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag8" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
-            <div id="drag9" class="gamePieces" draggable="true" ondragstart="drag(event)"></div>
+    <main class="grid">
+        <div class="box">
+            <div class="welcome-info">
+                <div class="title">It's a Block Party!</div>
+                <div class="instructios">Welcome to my drag and drop, photography puzzle game. Just drag
+                         an image piece onto the correct grid block to complete the picture.</div>
+            </div>
         </div>
-        
-        <div id="drop">
-            <div id="div1" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div3" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div2" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div4" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div5" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div6" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div7" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div8" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div id="div9" class="gamePieces" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        <div class="box">
+                <div class="instructions">Drag pieces from here to the grid box.</div>
+                <div id="pieces">
+                    <!-- <img id="drag1" data-div="div1" src="images/puzzle1_01.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag2" data-div="div2" src="images/puzzle1_02.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag3" data-div="div3" src="images/puzzle1_03.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag4" data-div="div4" src="images/puzzle1_04.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag5" data-div="div5" src="images/puzzle1_05.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag6" data-div="div6" src="images/puzzle1_06.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag7" data-div="div7" src="images/puzzle1_07.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag8" data-div="div8" src="images/puzzle1_08.jpg" draggable="true" ondragstart="drag(event)"/>
+                    <img id="drag9" data-div="div9" src="images/puzzle1_09.jpg" draggable="true" ondragstart="drag(event)"/> -->
+                </div> 
         </div>
+        <div class="box">
+                <div class="instructions">Drop pieces unto the correct grid box here.</div>
+                <div id="drop">
+                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+        </div>
+        <div class="box">
+                <div class="instructions"><p>Congratulations if you finished!<p></div>
+        </div>
+    </main>
+
+    <script src="js/scripts.js" async></script>
+
     
-      <div class="info"><p>Congratulations if you finished!<p></div>
+    
+    
+      
 </body>
 
 </html>

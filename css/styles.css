@@ -1,103 +1,117 @@
 body {
-    background:#6b6b69;
-    color:white;
+  background:#070707;
+  color:white;
+  font-family: 'Cabin', sans-serif;
+}
+
+/* ------ CSS Flexbox Starts Here ---- */
+
+.grid {
+  display: grid;
+  grid-template-rows: 3;
+  grid-template-columns: 2;
+  grid-gap: 0px;
+}
+.box {
+  color: white;
+  font-size: 2vw;
+  padding: 20px 10px;
+  background: #3B1C32;
+  text-align: center;
+}
+
+.box:nth-child(1) {
+  grid-column: span 2;
   }
-  
-  .welcome-info {
-    position:relative;
-    font-family:Arial;
-    margin:10px;
-    text-align:center;
-    border-radius:5px;
-    font-size:15px;
+.box:nth-child(2), { 
+  grid-column: span 1;
   }
-  
-  #title {
-    font-size:20px;
+.box:nth-child(3) {
+  grid-column: span 1;
   }
-  
-  #rest2 {
-    font-size:13px;
+.box:nth-child(4) {
+  grid-column: span 2;
   }
 
-  #drop div {
-    position:relative;
-    height: 200px;
-    width: 200px;
-    border: 1px dashed gray;
-    display: inline-block;
-    margin: 0;
+@media screen and (max-width: 575px) {
+    .grid {
+      display: inline;
+      }
+    .box {
+      margin: 4px;
+    }
   }
+
+
+/* ------ CSS Flexbox Ends Here ------ */
+
+.welcome-info {
+  position:relative;
+  margin:10px;
+  text-align:center;
+  border-radius:5px;
+  font-size:15px;
+}
+
+.title {
+  font-size: 64px;
+  font-weight: 800;
+}
+
+.instructions {
+  font-size: 18px;
+  padding: 8px;
+}
+
+#rest2 {
+  font-size:13px;
+}
+
+#drop div {
+  position:relative;
+  height: 200px;
+  width: 200px;
+  border: 1px dashed gray;
+  display: inline-block;
+  margin: 0px;
+}
+
+#drop {
+  width:624px;
+  height:624px;
+  background:black;
+  border:4px solid white;
+  margin: 0px;
+}
+
+#pieces {
+  width: 100%
+}
+
+img {
+  height: 200px;
+  width: 200px;
+  margin: 0 4px 0 0;
+}
+
+/* ROUND ONE */ 
+#drag1,
+#drag2,
+#drag3,
+#drag4,
+#drag5,
+#drag6,
+#drag7,
+#drag8,
+#drag9, {
+  height: 200px;
+  width: 200px;
+  padding: 0;
   
-  #drop {
-    width:614px;
-    height:614px;
-    background:black;
-    border:5px solid black;
-    margin:auto;
-  }
-  
-  #pieces {
-    width: 100%
-  }
-  
-  img {
-    height: 200px;
-    width: 200px;
-  }
-  
-  /* ROUND ONE */ 
-  #drag1,
-  #drag2,
-  #drag3,
-  #drag4,
-  #drag5,
-  #drag6,
-  #drag7,
-  #drag8,
-  #drag9 {
-    height: 200px;
-    width: 200px;
-    
-    display: inline-block;
-  }
-  
-  #drag1 {
-    background-image: url(../images/puzzle1_01.jpg)
-  }
-  
-  #drag2 {
-    background-image: url(../images/puzzle1_02.jpg)
-  }
-  
-  #drag3 {
-    background-image: url(../images/puzzle1_03.jpg)
-  }
-  
-  #drag4 {
-    background-image: url(../images/puzzle1_04.jpg)
-  }
-  
-  #drag5 {
-    background-image: url(../images/puzzle1_05.jpg)
-  }
-  
-  #drag6 {
-    background-image: url(../images/puzzle1_06.jpg)
-  }
-  
-  #drag7 {
-    background-image: url(../images/puzzle1_07.jpg)
-  }
-  
-  #drag8 {
-    background-image: url(../images/puzzle1_08.jpg)
-  }
-  
-  #drag9 {
-    background-image: url(../images/puzzle1_09.jpg)
-  }
-  
-  .info {
-      text-align: center;
-  }
+  display: inline-block;
+}
+
+
+.info {
+    text-align: center;
+}
