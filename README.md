@@ -7,10 +7,10 @@ This is a simple image puzzle game. The objective is to reposition the image til
 
 ## How to Play
 1. Refresh your screen to reshuffle the pieces. 
-2. Move an image tile by using a drag-and-drop method. 
-    * Select an image piece by clicking on it and holding the click down. 
-    * Move a piece by holding down the click, while simultaneously moving your mouse. 
-    * Release the click button to drop the piece into position. 
+2. Move an image tile by using a drag-and-drop method.
+  * Select an image piece by clicking on it and holding the click down. 
+  * Move the piece by holding down the click, while simultaneously moving your mouse to a proper position in the drop-zone. 
+  * Release the click button to drop the piece into position. 
 3. An alert will display informing you if the piece is in the correct grid box or not. 
 4. Refresh your screen at any time during the game to restart and reshuffle.
 
