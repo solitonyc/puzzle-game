@@ -42,6 +42,7 @@ You're presented an image puzzle with 25 pieces awaiting your keen attention to 
 * Timers and points have been excluded to allow for the simple enjoyment of completing the puzzle. 
 * I hope to return to this project in the future to add more features. 
 * There is a strange bug, where if I continue to zoom out to about 25%, eventually the drop zone breaks. It's a behavior I don't think many users ever do with their browser. 
+* On mobile, the drag doesn't work because mobile phones intercept the click event. Something I didn't have time to investigate.
 
 ### Image Copyright
 All photography used in this game are original works of art produced by Solito Reyes II. The images and sliced image pieces are the property and copyright of Solito Reyes II, 2019. Do not use without written permission. Check out [Solito's Flickr Account](https://www.flickr.com/people/solitoreyes/)
