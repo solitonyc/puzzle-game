@@ -31,6 +31,9 @@ An image puzzle with 25 pieces awaits your keen attention to visual detail, clue
 ## Link to the Game:
 [Life's a Drag Puzzle Game](https://solitonyc.github.io/puzzle-game/)
 
+## Additional Information
+Hopefully, I can return to this project in the future to add more features. There is a strange bug, where if I continue to zoom out to about 25%, eventually the drop zone breaks. It's a behavior I don't think many users ever do with their browser. 
+
 ## Image Copyright
 All photography used in this game are original works of art produced by Solito Reyes II. The images and sliced image pieces are the property and copyright of Solito Reyes II, 2019. Do not use without written permission. Check out [Solito's Flickr Account:](https://www.flickr.com/people/solitoreyes/)
 
@@ -38,12 +41,8 @@ All photography used in this game are original works of art produced by Solito R
 #### W3 Schools
 I learned a lot from playing with [W3 Schools](https://www.w3schools.com/) lessons on their site. The site helped me with understanding drag & drop, event listeners and refining my understanding of structuring functions. 
 
-### Fisher Yates
+#### Fisher Yates Algorithm
 I tried out a bunch of different shuffling algorithms for mixing up my image pieces. In my research I read a lot about the deficiencies, and the "not so random" phenomenon, ailing other algorithms that came before Fisher Yates. I also like the eloquence of the code, which makes it easy to implement. Here's a great article that explains the evolution: [Fisher Yates Shuffle by Mike Bostock](https://bost.ocks.org/mike/shuffle/)
-
-
-#### WDI Staff at General Assembly
-Last but not least, I want to thank the talented teachers, returning graduates andTAs assigned to my Terabyte cohort at General Assembly for their generous time and consultation. They helped me diagnose and overcome numerous bugs and blockers. And in the process I learned a lot.
 
 ## Contact Me
 Please feel free to email me with any bugs you may find or other suggestions to improve my game: solitonyc@gmail.com
