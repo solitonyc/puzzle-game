@@ -7,7 +7,7 @@ This is a simple image puzzle game. The objective is to reposition the image til
 
 ## How to Play
 1. Refresh your screen to reshuffle the pieces. 
-2. Move an image tile by using a drag-and-drop method. 
+2. Move an image tile by using a drag-and-drop method.
   * Select an image piece by clicking on it and holding the click down. 
   * Move the piece by holding down the click, while simultaneously moving your mouse to a proper position in the drop-zone. 
   * Release the click button to drop the piece into position. 
@@ -53,4 +53,4 @@ I learned a lot from playing with [W3 Schools](https://www.w3schools.com/) lesso
 I tried out a bunch of different shuffling algorithms for mixing up my image pieces. In my research I read a lot about the deficiencies, and the "not so random" phenomenon, ailing other algorithms that came before Fisher Yates. I also like the eloquence of the code, which makes it easy to implement. Here's a great article that explains the evolution: [Fisher Yates Shuffle by Mike Bostock](https://bost.ocks.org/mike/shuffle/)
 
 ## Contact Me
-Please feel free to email me with any bugs you may find or other suggestions to improve my game: solitonyc@gmail.com
+Please feel free to email me about any bugs you may find or other suggestions to improve my game: solitonyc@gmail.com
