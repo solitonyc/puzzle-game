@@ -137,18 +137,6 @@ let newArray = shuffledImages(gamePieceImages)
 const gamePiecesDiv = document.getElementById('pieces');
 
 //this dynamically creates the pieces array on left side of page from objects up top
-
-// for (let i=0; i<newArray.length; i+=1) {
-
-//   const imgEl = document.createElement('img');
-//   imgEl.id = `${newArray[i].id}`;
-//   imgEl.setAttribute('data-div', `div${i+1}`)
-//   imgEl.src = `${newArray[i].src}`;
-//   imgEl.draggable = `${newArray[i].draggable}`;
-//   imgEl.setAttribute('ondragstart', 'drag(event)')
-//   gamePiecesDiv.appendChild(imgEl);
-// }
-
 newArray.forEach( (img, i) => {
   if (img.id === img.dataDiv) {
   let imgEl = document.createElement('img')
