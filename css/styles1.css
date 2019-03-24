@@ -1,5 +1,5 @@
 body {
-  background:#070707;
+  background:#3B1C32;
   color:white;
   font-family: 'Cabin', sans-serif;
 }
@@ -14,7 +14,7 @@ body {
 }
 .box {
   color: white;
-  padding: 20px 10px;
+  padding: 4px;
   background: #3B1C32;
   text-align: center;
 }
@@ -22,7 +22,7 @@ body {
 .box:nth-child(1) {
   grid-column: span 2;
   }
-.box:nth-child(2), { 
+.box:nth-child(2) { 
   grid-column: span 1;
   }
 .box:nth-child(3) {
@@ -52,21 +52,48 @@ body {
   padding: 12px;
 }
 
-.nav-bottom {
-  font-size: 24px;
-  font-weight: 600px;
-  text-align: center;
-  text-decoration: none;
-}
-
 .logo {
   height: 46px;
   width: 46px
 }
 
-#rest2 {
-  font-size:13px;
+.nav-style {
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 18px;
+  padding: 0 24px;
+  align-content: space-around;
+  justify-content: center;
 }
+
+.shuffle {
+  background-color: #6CCE65;
+  border-radius: 20px;
+  padding: 3px 14px;
+  margin: 0 24px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  padding: 5px 24px 0 24px;
+}
+
+.pieces-box {
+  width: 624px;
+  margin: 0 auto;
+  background: #3B1C32;
+}
+
+.grid-box {
+  width: 624px;
+  margin: 0 auto;
+  background: #3B1C32;
+}
+
+#footer-box {
+  margin: 28px 0 0 0;
+ }
 
 #drop div {
   position:relative;
@@ -78,10 +105,10 @@ body {
 }
 
 #drop {
-  width:624px;
-  height:624px;
+  width:615px;
+  height:616px;
   background:black;
-  border:4px solid white;
+  border:0px solid white;
   margin: 0 auto;
 }
 
@@ -94,24 +121,10 @@ body {
 img {
   height: 200px;
   width: 200px;
-  margin: 0 4px 0 0;
+  margin: 0 2px 0 2px;
 }
 
-/* ROUND ONE */ 
-#drag1, 
-#drag2,
-#drag3,
-#drag4,
-#drag5,
-#drag6,
-#drag7,
-#drag8,
-#drag9, {
-  height: 200px;
-  width: 200px;
-  padding: 0;
-  display: inline-block;
-}
+
 
 .info {
     text-align: center;
