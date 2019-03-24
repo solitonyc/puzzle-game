@@ -10,42 +10,49 @@
 </head>
 <body>
     <main class="grid">
-        <div class="box">
-            <div class="welcome-info">
-                <div class="title"><img class="logo" src="images/logo.png"/> Level Two</div>
-                <div class="instructios">Welcome to my drag and drop, photography puzzle game. Just drag
-                         an image piece onto the correct grid block to complete the picture.</div>
-            </div>
-        </div>
-        <div class="box">
-                <div class="instructions">Drag pieces from here to the grid box.</div>
-                <div id="pieces"></div>
-        </div>
-        <div class="box">
-                <div class="instructions">Drop pieces unto the correct grid box here.</div>
-                <div id="drop">
-                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div13" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div14" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div15" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-                        <div id="div16" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                <div class="box">
+                    <div class="welcome-info">
+                        <div class="title"><img class="logo" class="animate-pop-in" src="images/logo.png"/> LIFE'S A DRAG!</div>
+                        <nav class="nav-style">
+                            <a href="level-one.html">Level One</a>
+                            <a href="level-two.html">Level Two</a>
+                            <a href="level-three.html">Level Three</a>
+                        </nav>
                     </div>
-        </div>
-        <div class="box">
-                <div class="instructions"><p>Try a harder puzzle!<p></div>
-                <div class="nav-bottom"><a href="level-three.html">LEVEL THREE</a></div>
-        </div>
+                </div>
+                <div class="pieces-box">
+                        <div class="instructions">Drag pieces from here to the grid box.
+                                <input class="shuffle" type="button" value="Reshuffle" onClick="document.location.reload(true)">
+                        </div>
+                        <div id="pieces">                    
+                        </div> 
+                </div>
+                <div class="grid-box">
+                        <div class="instructions">Drop pieces unto the correct grid box here. 
+                                <input class="shuffle" type="button" value="Next Level" onclick="location.href='level-three.html'"/>
+                        </div>
+                
+                        <div id="drop">
+                                <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div10" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div11" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div12" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div13" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div14" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div15" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                                <div id="div16" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        </div>
+                </div>
+        
+        <div class="box" id="footer-box">All images are property of Solito Reyes II. All rights reserved. Copyright 2019.</div>
     </main>
 
     <script src="js/scripts2.js" async></script>

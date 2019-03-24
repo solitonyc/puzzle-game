@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles1.css">
+    <title>Level One!</title>
+</head>
+<body>
+    <main class="grid">
+        <div class="box">
+            <div class="welcome-info">
+                <div class="title"><img class="logo" class="animate-pop-in" src="images/logo.png"/> LIFE'S A DRAG!</div>
+                <nav class="nav-style">
+                    <a href="level-one.html">Level One</a>
+                    <a href="level-two.html">Level Two</a>
+                    <a href="level-three.html">Level Three</a>
+                </nav>
+            </div>
+        </div>
+        <div class="pieces-box">
+                <div class="instructions">Drag pieces from here to the grid box.
+                        <input class="shuffle" type="button" value="Reshuffle" onClick="document.location.reload(true)">
+                </div>
+                <div id="pieces">                    
+                </div> 
+        </div>
+        <div class="grid-box">
+                <div class="instructions">Drop pieces unto the correct grid box here. 
+                        <input class="shuffle" type="button" value="Next Level" onclick="location.href='level-two.html'"/>
+                </div>
+                <div id="drop">
+                        <div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div4" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div5" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div6" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div7" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div8" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                        <div id="div9" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                    </div>
+        </div>
+       <div class="box" id="footer-box">All images are property of Solito Reyes II. All rights reserved. Copyright 2019.</div>
+    </main>
+
+    <script src="js/scripts.js" async></script>
+
+    
+    
+    
+      
+</body>
+
+</html>
